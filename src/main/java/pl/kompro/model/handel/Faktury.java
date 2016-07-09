@@ -9,7 +9,7 @@ public interface Faktury {
 
 	
 	
-	public interface KryteriaFaktury extends Serializable{
+	public interface KryteriaFaktury {//extends Serializable{
 
 		public void wstPlatnika( long platnik);
 
